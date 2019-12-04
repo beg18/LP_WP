@@ -41,3 +41,11 @@ src
 node_modules
 npm-debug.log
 svg
+.bowerrc
+.gitignore
+.htaccess
+gulpfile.js
+package-lock.json
+package.json
+smartgrid.js
+Шпаргалка_по_Flexbox_CSS.txt
