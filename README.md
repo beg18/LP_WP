@@ -36,4 +36,4 @@ npm install rimraf --save-dev
 
 
 
-Режим вывода команд на экран (ECHO) включен.
+
