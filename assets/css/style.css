@@ -5854,6 +5854,18 @@ footer {
   background-color: #fff;
 }
 
+.anim-down {
+  animation-delay: 1.5s;
+}
+
+.anim-left {
+  animation-delay: 2s;
+}
+
+.anim-right {
+  animation-delay: 2.5s;
+}
+
 /*
 http://chimir.ru/post/39:
 @font-face mixin.Пример использования:
@@ -6462,6 +6474,48 @@ svg path {
 .social_wrap .fa {
   color: #f44336;
   font-size: 1.25rem;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.footer__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.footer-item {
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(50% - 30px);
+}
+
+.footer-item.social_wrap {
+  text-align: right;
+}
+
+.footer-copy {
+  padding-top: 30px;
+  padding-top: 1.875rem;
+  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
+  color: #888 !important;
 }
 
 @media (min-width: 380px) {

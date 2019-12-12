@@ -687,6 +687,18 @@ footer {
   background-color: #fff;
 }
 
+.anim-down {
+  animation-delay: 1.5s;
+}
+
+.anim-left {
+  animation-delay: 2s;
+}
+
+.anim-right {
+  animation-delay: 2.5s;
+}
+
 /* Pages import
 ==============================*/
 
