@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/skins/red.css" id="template_settings" />
 
     <meta name="author" content="Alibekov Khiyirbeg">
@@ -21,30 +21,80 @@
  </head>
 
 
-
 <body id="home">
 <div class="debug">
+  <div>
     <div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+  </div>
 </div>
 <!--/.debug  -->
+<!--/.debug  -->
+<div class="loader">
+    <div class="loader_inner"></div>
+</div>
+<!--// loader-->
 
-
-
+<header class="main-head"
+        data-parallax="scroll"
+        data-image-src="i/@1x/bg.jpg"
+        data-position="top center"
+        data-z-index="2">
+    <div class="wrapper">
+        <div class="main-head__wrap">
+          <div class="logo">
+              <a href="#" class="logo__link">
+                 <svg class="svg-use-img logo__svg">
+                     <use xlink:href="i/symbol/sprite.svg#svg--logo"></use>
+                 </svg>
+                 <!-- End logo__svg -->
+              </a>
+          </div>
+          <!-- // logo -->
+          <button class="toggle_mnu">
+              <span class="sandwich">
+                  <span class="sw-topper"></span>
+                  <span class="sw-bottom"></span>
+                  <span class="sw-footer"></span>
+              </span>
+          </button>
+          <nav class="top_mnu">
+              <ul>
+                  <li><a href="#about">Обо мне</a></li>
+                  <li><a href="#resume">Резюме</a></li>
+                  <li><a href="#portfolio">Портфолио</a></li>
+                  <li><a href="#contacts">Контакты</a></li>
+              </ul>
+          </nav>
+        </div>
+        <!-- End main-head__wrap -->
+        <div class="slogan">
+          <div class="slogan-row">
+            <div class="slogan-col">
+              <div class="slogan-content">
+                <h1>Александр Прокопский</h1>
+                <p>Web-дизайнер / Front-End разработчик</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End main-head-slogan -->
+    </div>
+    <!-- End wrapper -->
+</header>
+<!-- End main-head -->
 <!-- JS section -->
 <!--[if lt IE 9]>
     <script src="../../bower_components//html5shiv/es5-shim.min.js"></script>
@@ -52,8 +102,7 @@
     <script src="../../bower_components/html5shiv/html5shiv-printshiv.min.js"></script>
     <script src="../../bower_components/respond/respond.min.js"></script>
 <![endif]-->
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://use.fontawesome.com/f038ff93b4.js"></script>
+
 <script src="js/main.js"></script>
 <script>
     var div = document.createElement('div');

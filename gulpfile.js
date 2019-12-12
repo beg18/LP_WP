@@ -281,7 +281,10 @@ gulp.task('browserSync',['css:assets','skins:assets' ,'js:assets'], function () 
         server: {
             baseDir: path.assets
         },
-        //tunnel: true
+       notify: false,
+       online: false, // Work offline without internet connection
+       tunnel: true, tunnel: 'myWorks', // Demonstration page: http://myWorks.localtunnel.me
+    //tunnel: true
     });
 });
 

@@ -528,7 +528,6 @@ body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #ff9800;
 }
 
 header,
@@ -608,6 +607,39 @@ fieldset {
 
 /* Pages import
 ==============================*/
+
+/*
+=========================================
+loader
+=========================================
+ */
+
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.loader .loader_inner {
+  background-image: url("../i/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-posirion: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
 
 @media (min-width: 380px) {
   .col-xxs-five {
