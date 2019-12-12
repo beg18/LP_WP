@@ -5772,6 +5772,88 @@ fieldset {
   background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7);
 }
 
+section,
+footer {
+  padding-top: 50px;
+  padding-top: 3.125rem;
+  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
+  position: relative;
+  z-index: 10;
+}
+
+.section__header {
+  min-width: 300px;
+  min-width: 18.75rem;
+  max-width: 600px;
+  max-width: 37.5rem;
+  text-align: center;
+  margin: 30px auto;
+  animation-delay: 1.5s;
+}
+
+.section__title {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  text-transform: uppercase;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section__descr {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  letter-spacing: 0.1125rem;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.section__descr::after {
+  content: "";
+  width: 150px;
+  width: 9.375rem;
+  height: 1px;
+  background-color: #888;
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translate(-50%, 0%);
+}
+
+.bg-light {
+  background-color: #fafafa;
+}
+
+.bg-dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.bg-dark .section__header {
+  color: #fff;
+}
+
+.bg-dark .section__descr::after {
+  content: "";
+  background-color: #fff;
+}
+
 /*
 http://chimir.ru/post/39:
 @font-face mixin.Пример использования:
@@ -6060,7 +6142,7 @@ Header
   border: 0.5rem solid #fff;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 1000px;
+  animation-delay: 1.5s;
 }
 
 .slogan-content p {
@@ -6074,6 +6156,7 @@ Header
   text-transform: uppercase;
   letter-spacing: 1.92px;
   letter-spacing: 0.12rem;
+  animation-delay: 1.8s;
 }
 
 .h_opacity {
@@ -6233,6 +6316,152 @@ svg path {
 
 .top_mnu ul a span:hover {
   background-color: rgba(255, 255, 255, 0.08);
+}
+
+.about__wrap {
+  padding-top: 30px;
+  padding-top: 1.875rem;
+  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.about__contents {
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(33.333333333333336% - 30px);
+}
+
+.about__contents h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  letter-spacing: 0.0875rem;
+  text-align: center;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.about__contents h2 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  text-transform: uppercase;
+}
+
+.about__contents p {
+  font-size: 0.875rem;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents p span {
+  color: #f44336;
+}
+
+.about__contents ul {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.about__contents li {
+  margin-bottom: 0.625rem;
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents a {
+  font-size: 0.875rem;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents a:hover {
+  text-decoration: underline;
+  color: #f44336;
+}
+
+.person {
+  display: block;
+  vertical-align: middle;
+  width: 250px;
+  width: 15.625rem;
+  height: 250px;
+  height: 15.625rem;
+  border-radius: 50% 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.social_wrap ul {
+  padding-top: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.social_wrap li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social_wrap a {
+  display: block;
+  padding: 10px 5px;
+  padding: 0.625rem 0.3125rem;
+}
+
+.social_wrap a:hover {
+  text-decoration: underline;
+  color: #f44336;
+}
+
+.social_wrap .fa {
+  color: #f44336;
+  font-size: 1.25rem;
 }
 
 @media (min-width: 380px) {
