@@ -43,7 +43,7 @@
 <!--/.debug  -->
 <!--/.debug  -->
 <div class="loader">
-    <div class="loader_inner"></div>
+  <div class="loader_inner"></div>
 </div>
 <!--// loader-->
 
@@ -52,266 +52,394 @@
         data-image-src="i/@1x/bg.jpg"
         data-position="top center"
         data-z-index="2">
-    <div class="wrapper">
-        <div class="main-head__wrap">
-          <div class="logo">
-              <a href="#" class="logo__link">
-                 <svg class="svg-use-img logo__svg">
-                     <use xlink:href="i/symbol/sprite.svg#svg--logo"></use>
-                 </svg>
-                 <!-- End logo__svg -->
-              </a>
-          </div>
-          <!-- // logo -->
-          <button class="toggle_mnu">
+  <div class="wrapper">
+    <div class="main-head__wrap">
+      <div class="logo">
+        <a href="#" class="logo__link">
+          <svg class="svg-use-img logo__svg">
+            <use xlink:href="i/symbol/sprite.svg#svg--logo"></use>
+          </svg>
+          <!-- End logo__svg -->
+        </a>
+      </div>
+      <!-- // logo -->
+      <button id="js-nav" class="toggle_mnu">
               <span class="sandwich">
                   <span class="sw-topper"></span>
                   <span class="sw-bottom"></span>
                   <span class="sw-footer"></span>
               </span>
-          </button>
-          <nav class="top_mnu">
-              <ul>
-                  <li><a href="#js_about">Обо мне</a></li>
-                  <li><a href="#resume">Резюме</a></li>
-                  <li><a href="#portfolio">Портфолио</a></li>
-                  <li><a href="#contacts">Контакты</a></li>
-              </ul>
-          </nav>
-        </div>
-        <!-- End main-head__wrap -->
-        <div class="slogan">
-          <div class="slogan-row">
-            <div class="slogan-col">
-              <div class="slogan-content">
-                <h1>Александр Прокопский</h1>
-                <p>Web-дизайнер / Front-End разработчик</p>
-              </div>
-            </div>
+      </button>
+      <nav class="top_mnu">
+        <ul>
+          <li><a href="#js_about">Обо мне</a></li>
+          <li><a href="#js_resuma">Резюме</a></li>
+          <li><a href="#js_portfolio">Портфолио</a></li>
+          <li><a href="#js_contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End main-head__wrap -->
+    <div class="slogan">
+      <div class="slogan-row">
+        <div class="slogan-col">
+          <div class="slogan-content">
+            <h1>Александр Прокопский</h1>
+            <p>Web-дизайнер / Front-End разработчик</p>
           </div>
         </div>
-        <!-- End slogan -->
+      </div>
     </div>
-    <!-- End wrapper -->
+    <!-- End slogan -->
+  </div>
+  <!-- End wrapper -->
 </header>
 <!-- End main-head -->
 
 <main class="main">
-<section id="js_about" class="about bg-light">
-<h2 class="visually-hidden">Hidden title</h2>
+  <section id="js_about" class="about bg-light">
+    <h2 class="visually-hidden">Hidden title</h2>
     <div class="wrapper">
-        <header class="section__header">
-            <h2 class="section__title">
-              Обо мне
-            </h2>
-            <p class="section__descr">
-              Познакомимся ближе
-            </p>
-        </header>
-        <div class="about__wrap">
-          <article class="about__contents anim-left">
+      <header class="section__header">
+        <h2 class="section__title">
+          Обо мне
+        </h2>
+        <p class="section__descr">
+          Познакомимся ближе
+        </p>
+      </header>
+      <div class="about__wrap">
+        <article class="about__contents anim-left">
           <h2 class="visually-hidden">Hidden title</h2>
-            <h3>Немного о себе</h3>
-            <p>
-              <span>Lorem Ipsum - это текст-"рыба", часто
+          <h3>Немного о себе</h3>
+          <p>
+             Lorem Ipsum - это текст-"рыба", часто
               используемый в печати и вэб-дизайне.
               Lorem Ipsum является стандартной "рыбой"
-                для текстов на латинице с начала XVI века.</span>
-            </p>
-            <p>
-              Lorem Ipsum - это текст-"рыба", часто
-              используемый в печати и вэб-дизайне.
-              Lorem Ipsum является стандартной "рыбой"
-              для текстов на латинице с начала XVI века.
-              В то время некий безымянный печатник
-              создал большую коллекцию размеров и форм
-              шрифтов, используя Lorem Ipsum
-              для распечатки образцов.
-            </p>
-          </article>
-          <!-- End about-1 -->
-          <article class="about__contents anim-down">
-            <h2 class="visually-hidden">Hidden title</h2>
-            <h3>Фото</h3>
-            <div class="person">
+             для текстов на латинице с начала XVI века.
+          </p>
+          <p>
+            Lorem Ipsum - это текст-"рыба", часто
+            используемый в печати и вэб-дизайне.
+            Lorem Ipsum является стандартной "рыбой"
+            для текстов на латинице с начала XVI века.
+            В то время некий безымянный печатник
+            создал большую коллекцию размеров и форм
+            шрифтов, используя Lorem Ipsum
+            для распечатки образцов.
+          </p>
+
+        </article>
+        <!-- End about-1 -->
+        <article class="about__contents about__contents-center anim-down">
+          <h2 class="visually-hidden">Hidden title</h2>
+          <h3>Фото</h3>
+          <div class="person">
+            <a href="i/@2x/photo.jpg" class="popup">
               <img src="i/@1x/photo.jpg" alt="Александр Прокопский">
-            </div>
-          </article>
-          <!-- End about-2 -->
-          <article class="about__contents anim-right">
-            <h2 class="visually-hidden">Hidden title</h2>
-            <h3>
-              Персональная информация
-            </h3>
-            <h2>
-              Александр Прокопский
-            </h2>
+            </a>
+          </div>
+        </article>
+        <!-- End about-2 -->
+        <article class="about__contents anim-right">
+          <h2 class="visually-hidden">Hidden title</h2>
+          <h3>
+            Персональная информация
+          </h3>
+          <h2>
+            Александр Прокопский
+          </h2>
+          <ul>
+            <li>
+              Профессиональное создание сайтов: разработка дизайна,
+              HTML верстка, посадка на CMS WordPress
+            </li>
+            <li>
+              День рождения: 3 июня 1988 года
+            </li>
+            <li>
+              Номер телефона: +7 999 999 99 99
+            </li>
+            <li>
+              E-mail: <a href="mailto:youmail@mail.ru" target="_blank">youmail@mail.ru </a>
+            </li>
+            <li>
+              Веб-сайт: <a href="#" target="_blank">webdesign-master.ru</a>
+            </li>
+          </ul>
+          <div class="social_wrap">
             <ul>
               <li>
-                Профессиональное создание сайтов: разработка дизайна,
-                HTML верстка, посадка на CMS WordPress
+                <a href="" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
               </li>
               <li>
-                День рождения: 3 июня 1988 года
+                <a href="" target="_blank">
+                  <i class="fa fa-vk"></i>
+                </a>
               </li>
               <li>
-                Номер телефона: +7 999 999 99 99
+                <a href="" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
               </li>
               <li>
-                E-mail: <a href="mailto:youmail@mail.ru" target="_blank">youmail@mail.ru </a>
-              </li>
-              <li>
-                Веб-сайт: <a href="#" target="_blank">webdesign-master.ru</a>
+                <a href="" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
               </li>
             </ul>
-              <div class="social_wrap">
-                <ul>
-                  <li>
-                    <a href="" target="_blank">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">
-                      <i class="fa fa-vk"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">
-                      <i class="fa fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          </div>
 
 
-          </article>
-          <!-- End about-3 -->
-        </div>
+        </article>
+        <!-- End about-3 -->
+      </div>
     </div>
     <!-- End wrapper -->
-</section>
-<!-- End about -->
-<section id="js_resuma" class="resuma">
- <h2 class="visually-hidden">Hidden title</h2>   
+  </section>
+  <!-- End about -->
+  <section id="js_resuma" class="resuma">
+    <h2 class="visually-hidden">Hidden title</h2>
     <div class="wrapper">
-        <header class="section__header">
-           <h2 class="section__title">
-             Резюме
-           </h2>
-            <p class="section__descr">
-              Мои знания и достижения
+      <header class="section__header">
+        <h2 class="section__title">
+          Резюме
+        </h2>
+        <p class="section__descr">
+          Мои знания и достижения
+        </p>
+      </header>
+      <div class="resuma__wrap">
+        <article class="contents__resuma left anim-left">
+          <h3 class="contents__resuma-title">Работа</h3>
+          <div class="contents__resuma-icon">
+            <i class="icon-basic-case"></i>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
             </p>
-        </header>
-        <div class="resuma__wrap">
-            <article class="contents__resuma">
-            <h2 class="visually-hidden">Hidden title</h2>   
-                
-            </article>
-            <!-- End contents__resuma-1 -->
-            <aside class="sidebar__resuma">
-                
-            </aside>
-            <!-- End sidebar__resuma-2 -->
-        </div>
-    </div>
-    <!-- //wrapper -->
-</section>
-<!-- End resuma -->
-<section id="js_portfolio" class="portfolio bg-dark">
- <h2 class="visually-hidden">Hidden title</h2>   
-    <div class="wrapper">
-        <header class="section__header">
-           <h2 class="section__title">
-             Портфолио
-           </h2>
-            <p class="section__descr">
-              Мои последние работы
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
             </p>
-        </header>
-        <div class="portfolio__wrap">
-            <article class="contents__portfolio">
-            <h2 class="visually-hidden">Hidden title</h2>   
-                
-            </article>
-            <!-- End contents__portfolio-1 -->
-            <aside class="sidebar__portfolio">
-                
-            </aside>
-            <!-- End sidebar__portfolio-2 -->
-        </div>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+        </article>
+        <!-- End contents__resuma-1 -->
+        <article class="contents__resuma right anim-right">
+          <h3 class="contents__resuma-title">Учеба</h3>
+          <div class="contents__resuma-icon">
+            <i class="icon-basic-book-pen"></i>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+          <div class="contents__resuma-item">
+            <div class="resuma-item__year">
+              2008-2015
+            </div>
+            <div class="resuma-item__descr">
+              <p>ООО "Пронькина забава"&nbsp;&nbsp;<strong>Программист</strong></p>
+            </div>
+            <p>
+              Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+              "рыбой" для текстов на латинице с начала XVI века.
+              В то время некий безымянный печатник создал большую
+              коллекцию размеров и форм шрифтов, используя Lorem Ipsum.
+            </p>
+          </div>
+        </article>
+        <!-- End contents__resuma-2 -->
+      </div>
     </div>
     <!-- //wrapper -->
-</section>
-<!-- End portfolio -->
-<section id="js_contacts" class="contacts bg-light">
- <h2 class="visually-hidden">Hidden title</h2>
+  </section>
+  <!-- End resuma -->
+  <section id="js_portfolio" class="portfolio bg-dark">
+    <h2 class="visually-hidden">Hidden title</h2>
     <div class="wrapper">
-        <header class="section__header">
-          <h2 class="section__title">
-            Контакты
-          </h2>
-          <p class="section__descr">
-            Оставьте ваше сообщение
-          </p>
-        </header>
-        <div class="contacts__wrap">
-            <article class="contents__contacts">
-            <h2 class="visually-hidden">Hidden title</h2>
+      <header class="section__header">
+        <h2 class="section__title">
+          Портфолио
+        </h2>
+        <p class="section__descr">
+          Мои последние работы
+        </p>
+      </header>
+      <div class="portfolio__wrap">
+        <article class="contents__portfolio">
+          <h2 class="visually-hidden">Hidden title</h2>
 
-            </article>
-            <!-- End contents__contacts-1 -->
-            <aside class="sidebar__contacts">
+        </article>
+        <!-- End contents__portfolio-1 -->
+        <aside class="sidebar__portfolio">
 
-            </aside>
-            <!-- End sidebar__contacts-2 -->
-        </div>
+        </aside>
+        <!-- End sidebar__portfolio-2 -->
+      </div>
     </div>
     <!-- //wrapper -->
-</section>
-<!-- End contacts -->
+  </section>
+  <!-- End portfolio -->
+  <section id="js_contacts" class="contacts bg-light">
+    <h2 class="visually-hidden">Hidden title</h2>
+    <div class="wrapper">
+      <header class="section__header">
+        <h2 class="section__title">
+          Контакты
+        </h2>
+        <p class="section__descr">
+          Оставьте ваше сообщение
+        </p>
+      </header>
+      <div class="contacts__wrap">
+        <article class="contents__contacts">
+          <h2 class="visually-hidden">Hidden title</h2>
+
+        </article>
+        <!-- End contents__contacts-1 -->
+        <aside class="sidebar__contacts">
+
+        </aside>
+        <!-- End sidebar__contacts-2 -->
+      </div>
+    </div>
+    <!-- //wrapper -->
+  </section>
+  <!-- End contacts -->
 </main>
 <!-- End main -->
 
 <footer class="footer bg-dark">
-   <div class="wrapper">
-        <div class="footer__wrap">
-            <div class="footer-item footer-copy">
-             &copy; <span>2019</span>&nbsp;Александр Прокопский
-            </div>
-            <div class="footer-item social_wrap">
-              <ul>
-                <li>
-                  <a href="" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" target="_blank">
-                    <i class="fa fa-vk"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" target="_blank">
-                    <i class="fa fa-github"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </div>
-        <!-- End footer bg-dark__wrap -->
+  <div class="wrapper">
+    <div class="footer__wrap">
+      <div class="footer-item footer-copy">
+        &copy; <span>2019</span>&nbsp;Александр Прокопский
+      </div>
+      <div class="footer-item social_wrap">
+        <ul>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-vk"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- End wrapper -->
+    <!-- End footer bg-dark__wrap -->
+  </div>
+  <!-- End wrapper -->
 </footer>
 <!-- End footer bg-dark -->
 <!-- JS section -->

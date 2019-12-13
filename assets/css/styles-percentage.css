@@ -688,15 +688,15 @@ footer {
 }
 
 .anim-down {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 .anim-left {
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 .anim-right {
-  animation-delay: 2.5s;
+  animation-delay: 2s;
 }
 
 /* Pages import
