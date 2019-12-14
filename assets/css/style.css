@@ -5790,6 +5790,8 @@ footer {
   text-align: center;
   margin: 30px auto;
   animation-delay: 1.5s;
+  margin-bottom: 3.75rem;
+  margin-bottom: 60px;
 }
 
 .section__title {
@@ -6847,6 +6849,151 @@ svg path {
   width: 100%;
 }
 
+.contacts__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.contacts-item {
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(50% - 30px);
+}
+
+.contacts-box {
+  margin-bottom: 1.875rem;
+  margin-bottom: 30px;
+}
+
+.contacts-box h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  text-transform: uppercase;
+  letter-spacing: 1.92px;
+  letter-spacing: 0.12rem;
+  color: #000;
+  margin-bottom: 0.625rem;
+  margin-bottom: 10px;
+}
+
+.contacts-box p {
+  font-size: 0.875rem;
+  margin-bottom: 11.04px;
+  margin-bottom: 0.69rem;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #888;
+  line-height: 20px;
+  line-height: 1.25rem;
+  letter-spacing: 1.68px;
+  letter-spacing: 0.105rem;
+}
+
+.contacts-box a {
+  color: #ff6347;
+}
+
+.contacts-box a:hover {
+  text-decoration: underline;
+}
+
+.contacts-box-icon {
+  font-size: 2rem;
+  color: #ff6347;
+}
+
+.main_form button {
+  border: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  float: right;
+  background-color: #ff6347;
+}
+
+.text-danger {
+  color: #FF6347;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347;
+}
+
+form input,
+form textarea {
+  letter-spacing: 2px;
+}
+
+form button {
+  background-color: #FF6347;
+  letter-spacing: 2px;
+}
+
+form .form-group {
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-group .color_element {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.form-group .text-danger {
+  font-size: 11px;
+  margin-top: 5px;
+  display: block;
+}
+
+.form-group .text-danger ul,
+.form-group .text-danger li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-group input,
+.form-group textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  line-height: 40px;
+  text-indent: 12px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
 .footer {
   padding-top: 20px;
   padding-top: 1.25rem;
@@ -6886,7 +7033,7 @@ svg path {
   padding-top: 1.875rem;
   padding-bottom: 30px;
   padding-bottom: 1.875rem;
-  color: #888 !important;
+  color: #888;
 }
 
 @media (min-width: 380px) {
@@ -7796,6 +7943,23 @@ svg path {
   .portfolio_item {
     width: calc(50% - 30px);
   }
+
+  .contacts__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .contacts-item {
+    width: calc(66.66666666666667% - 30px);
+  }
 }
 
 @media (max-width: 767px) {
@@ -7838,6 +8002,10 @@ svg path {
     font-size: 14px;
   }
 
+  img.parallax-slider {
+    right: 0 !important;
+  }
+
   .about__contents {
     width: calc(83.33333333333334% - 30px);
   }
@@ -7848,6 +8016,40 @@ svg path {
 
   .portfolio_item {
     width: calc(83.33333333333334% - 30px);
+  }
+
+  .contacts-item {
+    width: calc(83.33333333333334% - 30px);
+  }
+
+  .footer__wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .footer-item {
+    width: calc(83.33333333333334% - 30px);
+  }
+
+  .footer-item {
+    width: calc(100% - 30px);
+  }
+
+  .footer-item.social_wrap {
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-copy {
+    text-align: center;
   }
 }
 
@@ -7865,6 +8067,10 @@ svg path {
   }
 
   .portfolio_item {
+    width: calc(100% - 30px);
+  }
+
+  .contacts-item {
     width: calc(100% - 30px);
   }
 }
