@@ -188,7 +188,7 @@ svg path {
 }
 
 .about__contents p:nth-child(odd) {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 .about__contents li {
@@ -201,15 +201,15 @@ svg path {
 
 .about__contents a:hover {
   text-decoration: underline;
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 .social_wrap a:hover {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 .social_wrap .fa {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 /*
@@ -242,7 +242,7 @@ svg path {
   padding: 0 10px;
   box-sizing: border-box;
   color: #fff;
-  background-color: #0A0AFF;
+  background-color: #B20000;
   text-align: center;
   cursor: pointer;
   letter-spacing: 1.12px;
@@ -250,14 +250,14 @@ svg path {
 }
 
 .resuma-item__year:hover {
-  background-color: #0000f0;
+  background-color: #990000;
   color: #ffffff;
   text-decoration: none;
 }
 
 .resuma-item__year:focus {
   outline: none;
-  background-color: #2424ff;
+  background-color: #cb0000;
   color: #e6e6e6;
 }
 
@@ -284,7 +284,7 @@ svg path {
 
 .filter_div li.active {
   color: #fff;
-  border-bottom: 1px solid #0A0AFF;
+  border-bottom: 1px solid #B20000;
 }
 
 .port_item_cont {
@@ -324,24 +324,24 @@ svg path {
   line-height: 1.875rem;
   padding: 0 15px;
   box-sizing: border-box;
-  color: #0A0AFF;
+  color: #B20000;
   background-color: transparent;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #0A0AFF;
-  border: 0.0625rem solid #0A0AFF;
+  border: 1px solid #B20000;
+  border: 0.0625rem solid #B20000;
 }
 
 .popup_content:hover {
   background-color: rgba(0, 0, 0, 0);
-  color: #3d3dff;
+  color: #e50000;
   text-decoration: none;
 }
 
 .popup_content:focus {
   outline: none;
   background-color: rgba(13, 13, 13, 0);
-  color: #0000d6;
+  color: #7f0000;
 }
 
 .podrt_descr {
@@ -367,15 +367,15 @@ svg path {
 }
 
 .contacts-box a {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 .contacts-box-icon {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 .main_form button {
-  background-color: #0A0AFF;
+  background-color: #B20000;
 }
 
 form input,
@@ -384,16 +384,16 @@ form textarea {
 }
 
 .text-danger {
-  color: #0A0AFF;
+  color: #B20000;
 }
 
 form input:focus,
 form textarea:focus {
-  border: 1px solid #0A0AFF;
+  border: 1px solid #B20000;
 }
 
 form button {
-  background-color: #0A0AFF;
+  background-color: #B20000;
   letter-spacing: 2px;
 }
 

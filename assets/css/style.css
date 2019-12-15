@@ -5604,12 +5604,12 @@ Table of Content
 .debug {
     .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
 }
-*/
+
 
 * {
-  transition: all 0.5s;
-  transition: all all 0.5s ease-out;
+    .transition(all .5s);
 }
+*/
 
 *,
 *:before,
@@ -6069,7 +6069,7 @@ loader
   background-image: url("../i/preloader.gif");
   background-size: cover;
   background-repeat: no-repeat;
-  background-posirion: center center;
+  background-position: center center;
   background-color: #fff;
   height: 60px;
   width: 60px;
@@ -6152,15 +6152,10 @@ img.parallax-slider {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-style: normal;
-  border: 8px solid #fff;
-  border: 0.5rem solid #fff;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.3);
   animation-delay: 1.5s;
 }
 
 .slogan-content p {
-  color: rgba(255, 255, 255, 0.75);
   font-size: 16px;
   font-size: 1rem;
   line-height: 130%;
@@ -6168,8 +6163,6 @@ img.parallax-slider {
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
   text-transform: uppercase;
-  letter-spacing: 1.92px;
-  letter-spacing: 0.12rem;
   animation-delay: 1.8s;
 }
 
@@ -6193,7 +6186,6 @@ Menu
   border: none;
   right: 20px;
   top: 20px;
-  background-color: #222;
 }
 
 .toggle_mnu span {
@@ -6224,10 +6216,6 @@ Menu
   display: block;
 }
 
-svg path {
-  fill: #e0e0e0;
-}
-
 .sw-bottom {
   position: relative;
   width: 28px;
@@ -6237,7 +6225,7 @@ svg path {
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
-  transition-delay: 0.2s, 0s;
+  transition-delay: 0.2s;
 }
 
 .sw-footer {
@@ -6293,19 +6281,19 @@ svg path {
 }
 
 .top_mnu ul li:nth-child(1) a {
-  animation-delay: 0;
-}
-
-.top_mnu ul li:nth-child(2) a {
   animation-delay: 0.1s;
 }
 
-.top_mnu ul li:nth-child(3) a {
+.top_mnu ul li:nth-child(2) a {
   animation-delay: 0.2s;
 }
 
-.top_mnu ul li:nth-child(4) a {
+.top_mnu ul li:nth-child(3) a {
   animation-delay: 0.3s;
+}
+
+.top_mnu ul li:nth-child(4) a {
+  animation-delay: 0.4s;
 }
 
 .top_mnu ul a {
@@ -6328,9 +6316,11 @@ svg path {
   transition: all 0.5s ease;
 }
 
-.top_mnu ul a span:hover {
-  background-color: rgba(255, 255, 255, 0.08);
-}
+/*
+ ======================================
+  ABOUT
+ =====================================
+ */
 
 .about__wrap {
   padding-top: 30px;
@@ -6370,8 +6360,6 @@ svg path {
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
   text-transform: uppercase;
-  letter-spacing: 1.44px;
-  letter-spacing: 0.09rem;
   text-align: center;
   margin-top: 32px;
   margin-top: 2rem;
@@ -6390,8 +6378,6 @@ svg path {
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
   text-transform: uppercase;
-  letter-spacing: 1.56px;
-  letter-spacing: 0.0975rem;
 }
 
 .about__contents p {
@@ -6400,11 +6386,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 24px;
   line-height: 1.5rem;
-  color: rgba(136, 136, 136, 0.95);
-}
-
-.about__contents p:nth-child(odd) {
-  color: #ff6347;
 }
 
 .about__contents ul {
@@ -6422,7 +6403,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 24px;
   line-height: 1.5rem;
-  color: rgba(136, 136, 136, 0.95);
 }
 
 .about__contents a {
@@ -6431,12 +6411,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 24px;
   line-height: 1.5rem;
-  color: rgba(136, 136, 136, 0.95);
-}
-
-.about__contents a:hover {
-  text-decoration: underline;
-  color: #f44336;
 }
 
 .person {
@@ -6470,15 +6444,15 @@ svg path {
   padding: 0.625rem 0.3125rem;
 }
 
-.social_wrap a:hover {
-  text-decoration: underline;
-  color: #f44336;
-}
-
 .social_wrap .fa {
-  color: #f44336;
   font-size: 1.25rem;
 }
+
+/*
+ ======================================
+  RESUMA
+ =====================================
+ */
 
 .resuma__wrap {
   display: -ms-flexbox;
@@ -6509,8 +6483,6 @@ svg path {
   padding-bottom: 32px;
   padding-bottom: 2rem;
   position: relative;
-  border-right: 1px solid #dedede;
-  border-right: 0.0625rem solid #dedede;
 }
 
 .contents__resuma.right {
@@ -6542,7 +6514,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 20px;
   line-height: 1.25rem;
-  color: rgba(136, 136, 136, 0.9);
 }
 
 .resuma-item__year {
@@ -6566,8 +6537,6 @@ svg path {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-style: italic;
-  letter-spacing: 1.12px;
-  letter-spacing: 0.07rem;
   font-size: 0.875rem;
   margin-top: 16px;
   margin-top: 1rem;
@@ -6603,7 +6572,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 20px;
   line-height: 1.25rem;
-  color: #888;
 }
 
 .resuma-item__descr strong {
@@ -6617,8 +6585,6 @@ svg path {
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
   text-transform: uppercase;
-  letter-spacing: 1.12px;
-  letter-spacing: 0.07rem;
 }
 
 .contents__resuma-title {
@@ -6671,20 +6637,15 @@ svg path {
   font-size: 0.75rem;
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
-  letter-spacing: 1.44px;
-  letter-spacing: 0.09rem;
   text-transform: uppercase;
-  color: #888;
   line-height: 24px;
   line-height: 1.5rem;
   cursor: pointer;
 }
 
 .filter_div li.active {
-  color: #fff;
   line-height: 24px;
   line-height: 1.5rem;
-  border-bottom: 1px solid #ff6347;
 }
 
 .portfolio_wrap {
@@ -6718,15 +6679,6 @@ svg path {
 }
 
 .port_item_cont {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.85);
-  z-index: 2;
   opacity: 0;
   display: -ms-flexbox;
   display: flex;
@@ -6765,9 +6717,6 @@ svg path {
   margin-bottom: 0.69rem;
   line-height: 18px;
   line-height: 1.125rem;
-  color: #888;
-  letter-spacing: 1.44px;
-  letter-spacing: 0.09rem;
 }
 
 .popup_content {
@@ -6790,8 +6739,6 @@ svg path {
   cursor: pointer;
   font-size: 0.75rem;
   text-align: center;
-  border: 1px solid #ff6347;
-  border: 0.0625rem solid #ff6347;
 }
 
 .popup_content:hover {
@@ -6809,7 +6756,6 @@ svg path {
 .podrt_descr {
   max-width: 50%;
   margin: auto;
-  background-color: #fff;
   padding: 16px 32px;
   padding: 1rem 2rem;
   position: relative;
@@ -6848,6 +6794,12 @@ svg path {
   max-height: 100%;
   width: 100%;
 }
+
+/*
+ ======================================
+  CONTACTS
+ =====================================
+ */
 
 .contacts__wrap {
   display: -ms-flexbox;
@@ -6888,9 +6840,6 @@ svg path {
   margin-bottom: 11.04px;
   margin-bottom: 0.69rem;
   text-transform: uppercase;
-  letter-spacing: 1.92px;
-  letter-spacing: 0.12rem;
-  color: #000;
   margin-bottom: 0.625rem;
   margin-bottom: 10px;
 }
@@ -6902,15 +6851,8 @@ svg path {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #888;
   line-height: 20px;
   line-height: 1.25rem;
-  letter-spacing: 1.68px;
-  letter-spacing: 0.105rem;
-}
-
-.contacts-box a {
-  color: #ff6347;
 }
 
 .contacts-box a:hover {
@@ -6919,7 +6861,6 @@ svg path {
 
 .contacts-box-icon {
   font-size: 2rem;
-  color: #ff6347;
 }
 
 .main_form button {
@@ -6932,31 +6873,6 @@ svg path {
   font-weight: 600;
   margin-top: 10px;
   float: right;
-  background-color: #ff6347;
-}
-
-.text-danger {
-  color: #FF6347;
-}
-
-form input:focus,
-form textarea:focus {
-  border: 1px solid #FF6347;
-}
-
-form input,
-form textarea {
-  letter-spacing: 2px;
-}
-
-form button {
-  background-color: #FF6347;
-  letter-spacing: 2px;
-}
-
-form .form-group {
-  letter-spacing: 2px;
-  color: #888;
 }
 
 .form-group {

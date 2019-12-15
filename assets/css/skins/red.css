@@ -13,3 +13,447 @@ FOR  PROJECT
 /*==============================
 FONT-FAMILY
 ===============================*/
+
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+
+/*
+
+  Подключить этот файл в начало CSS/LESS файла
+  
+  Вот так:
+  
+  @import "lesselements.less";
+
+*/
+
+/* MY MIXINS */
+
+.cover {
+  background-size: cover;
+}
+
+/* Badges */
+
+/* Tags */
+
+.wrapper-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-five,
+.col-lg-five,
+.col-md-five,
+.col-sm-five,
+.col-xs-five,
+.col-xxs-five {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-five,
+.col-lg-five,
+.col-md-five,
+.col-sm-five,
+.col-xs-five,
+.col-xxs-five {
+  width: 20%;
+  float: left;
+}
+
+/* 6dp elevation modified*/
+
+/* 12dp elevation modified*/
+
+/* 16dp elevation */
+
+/* 24dp elevation */
+
+/*==========================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*=======================================*/
+
+/*===========================*/
+
+/*==========================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*
+================================
+Header
+================================
+*/
+
+.logo__svg {
+  width: 80px;
+  width: 5rem;
+  fill: #f5f5f5;
+}
+
+.slogan-content h1 {
+  border: 8px solid #fff;
+  border: 0.5rem solid #fff;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slogan-content p {
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 1.92px;
+  letter-spacing: 0.12rem;
+}
+
+/*
+============================================
+Menu
+============================================
+ */
+
+.toggle_mnu {
+  background-color: #222;
+}
+
+svg path {
+  fill: #e0e0e0;
+}
+
+.top_mnu ul a span:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/*
+ ======================================
+  ABOUT
+ =====================================
+ */
+
+.about__contents h3 {
+  letter-spacing: 1.44px;
+  letter-spacing: 0.09rem;
+}
+
+.about__contents h2 {
+  letter-spacing: 1.56px;
+  letter-spacing: 0.0975rem;
+}
+
+.about__contents p {
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents p:nth-child(odd) {
+  color: #f44336;
+}
+
+.about__contents li {
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents a {
+  color: rgba(136, 136, 136, 0.95);
+}
+
+.about__contents a:hover {
+  text-decoration: underline;
+  color: #f44336;
+}
+
+.social_wrap a:hover {
+  color: #f44336;
+}
+
+.social_wrap .fa {
+  color: #f44336;
+}
+
+/*
+ ======================================
+  RESUMA
+ =====================================
+ */
+
+.contents__resuma.left {
+  border-right: 1px solid #dedede;
+  border-right: 0.0625rem solid #dedede;
+}
+
+.contents__resuma-item p {
+  color: rgba(136, 136, 136, 0.9);
+}
+
+.resuma-item__year {
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+  outline: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 20px;
+  height: 1.25rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 1.12px;
+  letter-spacing: 0.07rem;
+}
+
+.resuma-item__year:hover {
+  background-color: #f32c1e;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.resuma-item__year:focus {
+  outline: none;
+  background-color: #f55a4e;
+  color: #e6e6e6;
+}
+
+.resuma-item__descr p {
+  color: #888;
+}
+
+.resuma-item__descr strong {
+  letter-spacing: 1.12px;
+  letter-spacing: 0.07rem;
+}
+
+/*
+ ============================================
+ PORTFOLIO
+ ============================================
+ */
+
+.filter_div li {
+  color: #888;
+  letter-spacing: 1.44px;
+  letter-spacing: 0.09rem;
+}
+
+.filter_div li.active {
+  color: #fff;
+  border-bottom: 1px solid #f44336;
+}
+
+.port_item_cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+}
+
+.port_item_cont h3 {
+  letter-spacing: 1.44px;
+  letter-spacing: 0.09rem;
+}
+
+.port_item_cont p {
+  color: #888;
+  letter-spacing: 1.44px;
+  letter-spacing: 0.09rem;
+}
+
+.popup_content {
+  border: none;
+  text-decoration: none;
+  overflow: hidden;
+  outline: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 30px;
+  height: 1.875rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #f44336;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  border: 0.0625rem solid #f44336;
+}
+
+.popup_content:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #f77066;
+  text-decoration: none;
+}
+
+.popup_content:focus {
+  outline: none;
+  background-color: rgba(13, 13, 13, 0);
+  color: #ea1c0d;
+}
+
+.podrt_descr {
+  background-color: #fff;
+}
+
+/*
+ ======================================
+  CONTACTS
+ =====================================
+ */
+
+.contacts-box h3 {
+  letter-spacing: 1.92px;
+  letter-spacing: 0.12rem;
+  color: #000;
+}
+
+.contacts-box p {
+  color: #888;
+  letter-spacing: 1.68px;
+  letter-spacing: 0.105rem;
+}
+
+.contacts-box a {
+  color: #f44336;
+}
+
+.contacts-box-icon {
+  color: #f44336;
+}
+
+.main_form button {
+  background-color: #f44336;
+}
+
+form input,
+form textarea {
+  letter-spacing: 2px;
+}
+
+.text-danger {
+  color: #f44336;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #f44336;
+}
+
+form button {
+  background-color: #f44336;
+  letter-spacing: 2px;
+}
+
+form .form-group {
+  letter-spacing: 2px;
+  color: #888;
+}
+
+@media (min-width: 380px) {
+  .col-xxs-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-xs-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-sm-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1300px) {
+  .col-lg-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contents__resuma.left {
+    border-right: 1px solid transparent;
+    border-right: 0.0625rem solid transparent;
+  }
+}

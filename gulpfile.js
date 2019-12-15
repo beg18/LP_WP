@@ -30,7 +30,7 @@ var path = {
         html:   'src/*.html',
         js:     'src/js/*.js',
         css:    'src/css/+(style|styles-percentage|styles-ie).less',
-        skins:  'src/css/skins/**/*.less',
+        skins:  'src/css/skins/+(blue|red|tomato|pink|purple).less',
         resimg_1:'src/i/**/*.{png,jpg,jpeg,webp,raw}',
         resimg_2:'src/i/**/*.{png,jpg,jpeg,webp,raw}',
         svg:    'src/i/**/*.svg',
@@ -281,10 +281,10 @@ gulp.task('browserSync',['css:assets','skins:assets' ,'js:assets'], function () 
         server: {
             baseDir: path.assets
         },
-       notify: false,
-       online: false, // Work offline without internet connection
-       tunnel: true, tunnel: 'myWorks', // Demonstration page: http://myWorks.localtunnel.me
-    //tunnel: true
+      // notify: false,
+      // online: false, // Work offline without internet connection
+      // tunnel: true, tunnel: 'myWorks', // Demonstration page: http://myWorks.localtunnel.me
+      //tunnel: true
     });
 });
 

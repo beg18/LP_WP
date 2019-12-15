@@ -437,12 +437,12 @@ Table of Content
 .debug {
     .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
 }
-*/
+
 
 * {
-  transition: all 0.5s;
-  transition: all all 0.5s ease-out;
+    .transition(all .5s);
 }
+*/
 
 *,
 *:before,
@@ -726,7 +726,7 @@ loader
   background-image: url("../i/preloader.gif");
   background-size: cover;
   background-repeat: no-repeat;
-  background-posirion: center center;
+  background-position: center center;
   background-color: #fff;
   height: 60px;
   width: 60px;
